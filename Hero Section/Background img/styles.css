@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+ 
+
+nav{
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+header{
+  height: 100vh;
+  padding: 0 auto;
+  position: relative;
+  background-image:linear-gradient(rgba(34, 34, 34, 0.6),
+   rgba(34, 34, 34, 0.6)), 
+   url(./img/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg);
+  background-size: cover;
+  /* width: 1200px; */
+}
+
+.container{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.centered-container{
+  /* background-color: coral; */
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%,-50%);
+}
+
+.inner-container{
+width: 45%;
+/* background-color: rgba(43, 150, 177, 0.705); */
+}
+
+.first-p{
+  line-height: 1.6;
+  margin-bottom: 48px;
+  font-size: 17px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.btn:link, 
+.btn:visited{
+  background-color: #e67e22;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+h1{
+  /* font-size: 18px; */
+  margin-bottom: 20px;
+  line-height: 1.08;
+  font-size: 52px;
+}
+
+h2{
+  margin: 40px 0 15px 0;
+}
